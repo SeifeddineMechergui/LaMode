@@ -19,14 +19,14 @@ connectDatabase();
 
 //create server
 const server = app.listen(process.env.PORT, () => {
-  console.log(
-    `Server is running on http://localhost:${process.env.PORT}`
-  );
+  console.log(`Server is running on https://a-mode-steel.vercel.app`);
 });
 
 //unhandled promise rejection
 process.on("unhandledRejection", (err) => {
-  console.log(`Shutting down the server due to unhandled promise rejection: ${err.message}`);
+  console.log(
+    `Shutting down the server due to unhandled promise rejection: ${err.message}`
+  );
 
   server.close(() => {
     process.exit(1);

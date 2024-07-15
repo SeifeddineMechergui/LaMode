@@ -1,2 +1,2 @@
-export const server = "http://localhost:8000/api/v2";
-export const backendUrl = "http://localhost:8000/";
+export const server = "https://a-mode-steel.vercel.app/api/v2";
+export const backendUrl = "https://a-mode-steel.vercel.app";
