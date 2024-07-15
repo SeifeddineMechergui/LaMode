@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://a-mode-steel.vercel.app",
+    origin: "https://la-mode-six.vercel.app",
     credentials: true,
   })
 );

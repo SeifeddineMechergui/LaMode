@@ -19,7 +19,7 @@ connectDatabase();
 
 //create server
 const server = app.listen(process.env.PORT, () => {
-  console.log(`Server is running on https://a-mode-steel.vercel.app`);
+  console.log(`Server is running on https://la-mode-six.vercel.app`);
 });
 
 //unhandled promise rejection

@@ -42,7 +42,7 @@ router.post("/create-user", upload.single("file"), async (req, res, next) => {
     };
 
     const activationToken = createActivationToken(user);
-    const activationUrl = `https://a-mode-steel.vercel.app/activation/${activationToken}`;
+    const activationUrl = `https://la-mode-six.vercel.app/activation/${activationToken}`;
 
     try {
       await sendMail({
